@@ -1,0 +1,15 @@
+#root of resources folder
+root.dir =  /home/jmaxk/resources/
+
+#root of wordlist folder
+wordlist.dir = ${root.dir}wordlists/
+liwc.file = ${wordlist.dir}LIWC.all.txt
+liwc.expanded.file = ${wordlist.dir}LIWC.all.expanded.txt
+roget.file=${wordlist.dir}Roget.all.txt
+opinionFinder.file=${wordlist.dir}OpinionFinder.all.txt
+wna.file=${wordlist.dir}WordNetAffect.all.txt
+
+
+#root of the dictfolder
+dict.dir = ${root.dir}dict/
+unigrams.file = ${dict.dir}unigrams.txt
